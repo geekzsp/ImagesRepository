@@ -872,6 +872,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "http://101.34.67.237/js/夜空.js"
+		
         },
         {
             "key": "dr_在线之家",
@@ -3663,7 +3664,8 @@
                     "urls": [
                         "proxy://do=live&type=txt&ext=aHR0cHM6Ly9qc2QuY2RuLnp6a28uY24vZ2gvZ2Vla3pzcC9JbWFnZXNSZXBvc2l0b3J5QG1hc3Rlci9zZC1pcHR2LnR4dA=="
                     ]
-                }
+                },
+                {"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cDovL3huLS1paHF1MTBjbjRjLnhuLS16N3g5MDBhLmxvdmU6NjMvVFYvemIudHh0"]}]}
             ]
         }
     ],
