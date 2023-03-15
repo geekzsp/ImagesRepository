@@ -3,14 +3,21 @@
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "lives": [
     {
-      "name": "TXT",
+      "name": "山东电信",
       "type": 0,
       "url": "https://jsd.cdn.zzko.cn/gh/geekzsp/ImagesRepository@master/sd-iptv.txt",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "Json",
+      "name": "肥猫",
+      "type": 0,
+      "url": "http://我不是.肥猫.love:63/TV/tvzb.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "蜂蜜",
       "type": 1,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={epg}&date={date}",
