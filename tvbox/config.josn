@@ -2,6 +2,16 @@
   "spider": "https://fm.t4tv.hz.cz/jar/custom_spider.jar;md5;9060b67dfec8782aca6e79ba17c0979b",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
+  {
+      "key": "Alist-my",
+      "name": "Alist-my",
+      "type": 3,
+      "api": "http://10.243.139.163:5678/tvbox/libs/alist.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://10.243.139.163:5678/tvbox/json/alist.json;200;video"
+    },
     {
       "key": "商店",
       "name": "商店",
