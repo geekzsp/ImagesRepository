@@ -16,7 +16,13 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fallback-filter:
-    geoip: true
-    domain:
-      - '+.bing.com'
-      - '+.linkedin.com'
+      geoip: true
+      geoip-code: CN
+      geosite:
+        - gfw
+      ipcidr:
+        - 240.0.0.0/4
+      domain:
+        - '+.google.com'
+        - '+.facebook.com'
+        - '+.youtube.com'
