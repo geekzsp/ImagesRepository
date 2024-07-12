@@ -28,3 +28,4 @@ dns:
         - '+.youtube.com'
         - '+.ipleak.net'
         - '+.surfsharkdns.com'
+        - '+.edns.ip-api.com'
