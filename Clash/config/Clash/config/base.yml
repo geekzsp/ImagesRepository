@@ -17,3 +17,9 @@ dns:
     - 223.5.5.5
   nameserver:  [https://dns.cloudflare.com/dns-query#h3=true, https://8.8.4.4/dns-query, https://doh.opendns.com/dns-query]
 
+proxies:
+  -
+   name: charles
+   type: socks5
+   server: 127.0.0.1
+   port: 8888
