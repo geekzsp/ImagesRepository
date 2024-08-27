@@ -16,3 +16,12 @@ dns:
     - 114.114.114.114
     - 223.5.5.5
   nameserver:  [https://dns.cloudflare.com/dns-query#h3=true#🍏 优质节点, https://8.8.4.4/dns-query#🍏 优质节点, https://doh.opendns.com/dns-query#🍏 优质节点]
+
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+  asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+
