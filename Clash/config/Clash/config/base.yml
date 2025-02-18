@@ -4,6 +4,8 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
+hosts:
+  'bbs.hassbian.com': 42.202.164.131
 dns:
   enable: true
   prefer-h3: true
@@ -17,8 +19,6 @@ dns:
     - 223.5.5.5
   nameserver:  [https://dns.cloudflare.com/dns-query#h3=true#🍏 优质节点, https://8.8.4.4/dns-query#🍏 优质节点, https://doh.opendns.com/dns-query#🍏 优质节点]
   use-hosts: true
-  hosts:
-    'bbs.hassbian.com': 42.202.164.131
 geo-auto-update: true
 geo-update-interval: 24
 geox-url:
